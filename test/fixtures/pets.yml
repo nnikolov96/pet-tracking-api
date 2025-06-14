@@ -1,0 +1,18 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pet_type: cat
+  tracker_type: small
+  owner_id: 1
+  in_zone: true
+
+two:
+  pet_type: dog
+  tracker_type: medium
+  owner_id: 1
+  in_zone: true
+three:
+  pet_type: cat
+  tracker_type: big
+  owner_id: 1
+  in_zone: true
