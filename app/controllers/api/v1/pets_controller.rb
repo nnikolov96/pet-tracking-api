@@ -3,6 +3,7 @@ module Api
     class PetsController < ApplicationController
       def create
         pet = Pet.new(pet_params)
+
         if pet.save
           render json: pet.as_json(include: :cat_profile), status: :created
         else
